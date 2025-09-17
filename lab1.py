@@ -44,7 +44,7 @@ r2 = r2_score(y_test, y_pred)
 
 print(f"MSE = {mse:.4f}")
 print(f"MAE = {mae:.4f}")
-print(f"R^2 = {r2:.4f}")
+print(f"R^2  = {r2:.4f}")
 
 # =========================
 # 5. Графік даних та лінії регресії

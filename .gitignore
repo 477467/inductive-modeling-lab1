@@ -1,25 +1,24 @@
 # Python
 __pycache__/
 *.py[cod]
+*.pyo
+*.pyd
 *.egg-info/
 .eggs/
-.build/
-.pytest_cache/
+.env
+.venv
+venv/
+ENV/
+.env.local
+.env.*.local
+
+# Jupyter
 .ipynb_checkpoints/
 
-# Environments
-.venv/
-.env/
-.env.*
-
-# OS / Editors
+# OS
 .DS_Store
 Thumbs.db
-.vscode/
-.idea/
 
-# Logs
-*.log
-
-# Plots/outputs (optional)
-plot.png
+# Plots/outputs
+*.png
+*.pdf
