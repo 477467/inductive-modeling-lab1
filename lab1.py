@@ -6,10 +6,10 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 # =========================
 # 1. Генерація синтетичних даних
 # =========================
-np.random.seed(42)  # щоб результати відтворювалися
-n = 12  # твій варіант
+np.random.seed(42) 
+n = 12  
 x = np.linspace(0, 10, 100)
-noise = np.random.normal(0, 0.3, size=100)  # шум
+noise = np.random.normal(0, 0.3, size=100)  
 y = n * x + np.sin(x / n) + noise
 
 # перетворюємо x у стовпчик для sklearn
